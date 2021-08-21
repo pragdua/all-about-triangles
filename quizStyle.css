@@ -1,0 +1,30 @@
+body {
+  background: #121212;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 80vw;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+button {
+  padding: 1rem;
+  background: #121212;
+  border: 3px solid #8b9cff;
+  margin-top: 2rem;
+  color: white;
+}
+
+#output {
+  margin-top: 1rem;
+}
+
+.goback {
+  text-decoration: none;
+  color: #8b9cff;
+}

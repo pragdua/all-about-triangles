@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #121212;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 70vw;
+  max-width: 400px;
+}
+
+label {
+  margin-bottom: 1rem;
+}
+
+input {
+  background: #474747;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+
+button {
+  padding: 1rem;
+  background: #121212;
+  border: 3px solid #8b9cff;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  color: white;
+}
+
+.goback {
+  text-decoration: none;
+  color: #8b9cff;
+}

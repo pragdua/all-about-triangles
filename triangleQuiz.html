@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="quizStyle.css" />
+  </head>
+  <body>
+    <div class="container">
+      <p><a class="goback" href="index.html"> ← Go Back</a></p>
+      <h1>Triangle Quiz</h1>
+      <form class="quiz-form" action="">
+        <div class="question-container">
+          <p>What is the third angle in a triangle if two are 45 degrees?</p>
+          <label for="">
+            <input type="radio" name="question1" value="45" />45</label
+          >
+          <label for="">
+            <input type="radio" name="question1" value="60" />60</label
+          >
+          <label for="">
+            <input type="radio" name="question1" value="90" />90</label
+          >
+        </div>
+
+        <div class="question-container">
+          <p>
+            What is the third angle in a triangle if one is 30 and other is 90
+            degrees?
+          </p>
+          <label for="">
+            <input type="radio" name="question2" value="45" />45
+          </label>
+          <label for="">
+            <input type="radio" name="question2" value="60" />60
+          </label>
+          <label for="">
+            <input type="radio" name="question2" value="90" />90
+          </label>
+        </div>
+      </form>
+      <button id="submit-btn">Submit</button>
+      <div id="output"></div>
+    </div>
+  </body>
+  <script src="triangleQuiz.js"></script>
+</html>

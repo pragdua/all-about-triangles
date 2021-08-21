@@ -1,0 +1,41 @@
+body {
+  background: #121212;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.index-heading {
+  font-size: 1.4rem;
+}
+
+.options > a {
+  text-decoration: none;
+  color: azure;
+  padding-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.index-heading {
+  text-align: center;
+}
+
+.options {
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.options + .options {
+  border-top: 5px dotted #8b9cff;
+}
