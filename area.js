@@ -8,7 +8,7 @@ const isTriangle = () => {
   const height = Number(inputs[1].value);
   const area = 0.5 * base * height;
 
-  output.innerText = `Your hypotenuse is ` + area;
+  output.innerText = `Your area is ` + area;
 };
 
 isTriangleButton.addEventListener("click", isTriangle);
